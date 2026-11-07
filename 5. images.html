@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Images </title>
+  <style>
+    body {
+      background-color: #414141;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <img src="HTML-image.jpg" width="200px" alt="no image">            <br />
+
+  <img src="https://images.pexels.com/photos/28945204/pexels-photo-28945204.jpeg" width="300x" alt="no image">
+
+
+  <picture> 
+
+    <source media="(max-width: 600px)" srcset="Mobile.jpg">
+
+    <source 
+    media="(min-width: 601px)"
+    srcset="PC.jpg">
+
+    <img 
+    src="PC.jpg"
+    alt="Different image based on src size" >
+
+  </picture>
+
+
+
+</body>
+</html>

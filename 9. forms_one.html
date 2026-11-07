@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Form 1 </title>
+
+  <style>
+
+    body {
+      background-color: #414141;
+      color: #fff;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <h1> Forms in HTML </h1>
+
+  <form action="" method="POST" accept-charset="UTF-16" autocomplete="off" enctype="multipart/form-data"> 
+
+    <label for="fname"> First Name: </label>
+
+    <input type="text" name="First Name" id="fname" placeholder="first name" required autocmplete >
+
+    <label for="lname"> Last Name: </label>
+
+    <input type="text" name="Last Name" id="lname" placeholder="last name" >
+
+    <br />
+
+    <label for="email"> Email: </label>
+    <input type="email" name="Email" id="email" placeholder="Enter your email" required > 
+
+    <label for="Number"> Phone Number: </label>
+    <input type="tel" name="Number" id="Number" placeholder="Number daliye" >
+
+    <br />
+
+    <label for="files"> Upload file: </label>
+    <input type="file" name="" id="files" > 
+
+    <label for="profile"> Choose an image: </label>
+    <input type="file" name="Profile" id="profile" accept="image/*" multiple >
+
+    <br />
+
+    <h3> Select your skills: </h3>
+
+    <label for="html"> html </label>
+    <input type="checkbox" name="Skills" id="html" >  
+    
+    <br />
+
+    <label for="js"> Javascript </label>
+    <input type="checkbox" name="skills" id="js" >   
+
+    <br />
+
+    <label for="node"> Node JS</label>
+    <input type="checkbox" name="skills" id="node" >
+
+    <br />
+
+    <h3> Select your Gender: </h3>
+
+    <label for="Male"> Male </label>
+    <input type="radio" name="Gender" id="Male" >
+
+    <br />
+    <label for="Female"> Female </label>
+    <input type="radio" name="Gender" id="Female" >
+
+    <br />
+    <label for="Other"> Others </label>
+    <input type="radio" name="Gender" id="Other" >
+
+
+    <br />
+    <br />
+    <br />
+
+    <button type="submit"> Submit </button>
+    
+
+  </form>
+
+  
+</body>
+</html>
